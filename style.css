@@ -1,0 +1,44 @@
+body{
+    background-color:blueviolet;
+    color:black;
+    justify-content: center;
+}
+.header{
+    position:relative;
+    top: 0;
+    left:0;
+    width:100%;
+    padding:5px;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding-bottom: 200px;
+}
+.navbar a{
+    font-size: 20px;
+    color: white;
+    margin-left:30px;
+}
+a{
+    
+}
+.box{
+    border:1px solid white; 
+    width: 500px;
+    height: 125px;
+    border-radius: 20px;
+    padding: 20px;
+    margin:auto;
+    
+}
+.box:hover{
+    color: red;
+}
+.icon{
+    display:flex;
+    justify-content: space-around;
+    width:250px;
+    height:250px;
+    padding: 50px;
+}
